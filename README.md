@@ -1,6 +1,5 @@
 # Data Warehouse and Analytics Project
-
-Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
+  
 This project demonstrates a data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, tried using the industry best practices in data engineering and analytics.
 
 ---
