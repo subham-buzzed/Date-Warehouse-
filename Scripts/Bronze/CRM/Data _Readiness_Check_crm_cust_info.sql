@@ -3,7 +3,7 @@
 /*
 Possible Data Quality Checks  with crm_cust_info
 	- Data Duplicates
-	- Data with unwanted spaces
+	- Data with unwanted spaces 
 	- Data Standardization & Consistency 
 
 */
