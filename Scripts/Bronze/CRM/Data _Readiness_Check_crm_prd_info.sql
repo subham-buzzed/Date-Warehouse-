@@ -5,8 +5,6 @@ Possible Data Quality Checks  with crm_prd_info
 	- Data Duplicates
 	- Data with unwanted spaces
 	- Data with lower case & upper case mismatch
-	- Data Standardization & Consistency 
-
 */
 --============ DATA DUPLICATES ================
 SELECT 
