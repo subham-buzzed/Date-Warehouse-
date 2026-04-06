@@ -1,9 +1,8 @@
 --=====================================================================
 /* 
 
-crm_prd_info Files from Bronze layer to Silver Layer after complete testing of Data Quality and Data Completeness
-	where data is:
-				Possible Data Quality Checks  with crm_prd_info
+crm_prd_info Files from Bronze layer to Silver Layer after complete handling  of Data Quality and Data Completeness issues,
+	where current data :	
 					- Has no Data Duplicates
 					- Dealt with Data with unwanted spaces
 					- Dealt with Data with lower case & upper case mismatch
