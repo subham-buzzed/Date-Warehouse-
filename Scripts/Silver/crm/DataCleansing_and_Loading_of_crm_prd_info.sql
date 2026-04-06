@@ -36,6 +36,7 @@ INSERT INTO Silver.crm_prd_info
 	prd_id,
 	cat_id,
 	prd_key,
+	prd_name,
 	prd_cost,
 	prd_line,
 	prd_start_dt,
@@ -45,6 +46,7 @@ SELECT
 	prd_id,
 	REPLACE(SUBSTRING(prd_key,1,5),'-','_') AS cat_id,
 	SUBSTRING(prd_key,7,LEN(prd_key)) prd_key,
+	TRIM(prd_name) prd_name,
 	ISNULL(prd_cost,0) prd_cost,
 	CASE TRIM(prd_line)
 		WHEN 'M' THEN 'Mountain'
