@@ -1,3 +1,6 @@
+/*
+TO CHECK THE QUALITY AND COMPLETENESS OF THE DATA
+*/
 --============ DATA DUPLICATES ================
 SELECT 
 	prd_id,
