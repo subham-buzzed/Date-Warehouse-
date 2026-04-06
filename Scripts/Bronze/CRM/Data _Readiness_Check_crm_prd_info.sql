@@ -70,3 +70,12 @@ SELECT
 	prd_cost
 FROM Bronze.crm_prd_info
 	WHERE prd_cost IS NULL
+
+--=========== INVALID DATES ==============
+
+SELECT 
+	prd_id,
+	DATETRUNC(DAY,prd_start_dt) START_DATEs,
+	DATETRUNC(DAY,prd_end_dt) END_DATEs
+FROM Bronze.crm_prd_info
+WHERE prd_start_dt > prd_end_dt
