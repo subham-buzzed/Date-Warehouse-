@@ -1,5 +1,4 @@
 --=====================================================================
-
 /* 
 
 crm_prd_info Files from Bronze layer to Silver Layer after complete testing of Data Quality and Data Completeness
@@ -31,6 +30,8 @@ CREATE TABLE Silver.crm_prd_info
     dwh_create_date DATETIME2 DEFAULT GETDATE()
 
 );
+GO
+	
 INSERT INTO Silver.crm_prd_info
 (
 	prd_id,
