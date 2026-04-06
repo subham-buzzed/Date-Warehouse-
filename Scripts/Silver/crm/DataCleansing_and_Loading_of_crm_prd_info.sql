@@ -36,7 +36,7 @@ INSERT INTO Silver.crm_prd_info
 	prd_id,
 	cat_id,
 	prd_key,
-	prd_name,
+	prd_nm,
 	prd_cost,
 	prd_line,
 	prd_start_dt,
