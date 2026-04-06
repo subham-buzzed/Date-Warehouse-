@@ -1,15 +1,15 @@
 --=============== DUPLICATES ===================
 SELECT 
-	DISTINCT cst_id
+	cst_id,
+	Checks
 FROM
-(SELECT 
+(
+SELECT 
+	ROW_NUMBER()  OVER(PARTITION BY cst_id ORDER BY cst_id) Checks,
 	*
-FROM
-(SELECT 
-	* ,
-	COUNT(cst_id) OVER (PARTITION BY cst_id ORDER BY cst_id) Checks
-FROM Silver.crm_cust_info)T
-	WHERE Checks != 1 OR cst_id IS NULL)T
+FROM Silver.crm_prd_info
+)T
+WHERE Checks != 1 OR cst_id IS NULL
 
 
 --================== DATA WITH UNWANTED SPACE =============================
