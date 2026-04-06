@@ -2,8 +2,8 @@
 
 /* 
 
-crm_cust_info Files from Bronze layer to Silver Layer after complete testing of Data Quality and Data Completeness
-	where data is:
+crm_cust_info Files from Bronze layer to Silver Layer after handling of Data Quality and Data Completeness issues,
+	where current data is:
 					-	DATA WITHOUT ABY DUPLICATE AND NULL cst_ID VALUES
 					-	DATA WITH FIELD HAVING NO BLANK SPACE/ UNWANTED SPACE 
 					-	DATA WITH STANDARDIZATION AND CONSISTENCY
