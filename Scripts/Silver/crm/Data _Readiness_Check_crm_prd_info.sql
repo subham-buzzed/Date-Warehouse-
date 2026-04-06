@@ -1,5 +1,4 @@
 -- DATA QUALITY & DATE COMPLETENESS CHECK
-
 /*
 Possible Data Quality Checks  with crm_prd_info
 	- Data Duplicates
