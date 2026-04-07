@@ -56,5 +56,5 @@ SELECT
 		ELSE 'N/A'
 	END prd_line,
 	CAST(prd_start_dt AS DATE) prd_start_dt,
-	CAST(LEAD(prd_start_dt) OVER(PARTITION BY prd_key ORDER BY prd_start_dt ) AS DATE) prd_end_dt
+	CAST(LEAD(prd_start_dt) OVER(PARTITION BY prd_key ORDER BY prd_start_dt ) - 1 AS DATE) prd_end_dt
 FROM Bronze.crm_prd_info
