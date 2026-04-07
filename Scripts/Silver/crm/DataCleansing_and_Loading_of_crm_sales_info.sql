@@ -86,3 +86,4 @@ FROM Bronze.crm_sales_details
 
 
 
+
