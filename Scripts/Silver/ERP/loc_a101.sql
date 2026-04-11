@@ -7,6 +7,16 @@ erp_LOC_A101 FILE TRANSFERED FROM BRONZE TO SILVER
 				- Handling Missing values or blank countries codes
 
 */
+IF OBJECT_ID('Silver.erp_loc_a101', 'U') IS NOT NULL
+    DROP TABLE Silver.erp_loc_a101;
+GO
+
+CREATE TABLE Silver.erp_loc_a101 (
+    cid    NVARCHAR(50),
+    cntry  NVARCHAR(50),
+    dwh_create_date     DATETIME2 DEFAULT GETDATE()
+);
+GO
 
 INSERT INTO Silver.erp_loc_a101
 	(
