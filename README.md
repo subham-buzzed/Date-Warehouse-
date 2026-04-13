@@ -6,12 +6,16 @@ This project demonstrates a data warehousing and analytics solution, from buildi
   Data Architecture
 
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
-![Data_Flow](https://github.com/user-attachments/assets/93e1e213-cfbc-424c-9b75-41547f68e310)
+![Data  Lake  House Architecture](https://github.com/user-attachments/assets/04b85bbe-6b75-4b5a-8175-eb55d79a098f)
+
 
 
 1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
 2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
 3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
+
+Here is the Data flow model in this Data Warehouse:
+![Data_Flow](https://github.com/user-attachments/assets/b495ce6b-00be-4329-bcaf-ae021aa85737)
 
 ---
 ## Project Overview
