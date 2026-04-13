@@ -12,6 +12,7 @@ GROUP BY customer_id
 HAVING COUNT(*) != 1
 
 --============ DATA INTEGRATION CHECKS (Post integration checks)
+	
 SELECT DISTINCT
 	c1.cst_gndr,
 	c2.gen
