@@ -15,6 +15,7 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 Here is the Data flow model in this Data Warehouse:
+
 ![Data_Flow](https://github.com/user-attachments/assets/b495ce6b-00be-4329-bcaf-ae021aa85737)
 
 ---
