@@ -32,7 +32,7 @@ CREATE OR ALTER PROCEDURE Bronze.load_bronze_erp AS
 					TRUNCATE TABLE  Bronze.erp_loc_a101;
 		
 					BULK INSERT Bronze.erp_loc_a101
-					FROM 'C:\DALAIs Document\SQL\DATA\Data Warehouse\sql-data-warehouse-project\datasets\source_erp/CUST_AZ12.csv'
+					FROM 'C:\DALAIs Document\SQL\DATA\Data Warehouse\sql-data-warehouse-project\datasets\source_erp/LOC_A101.csv'
 					WITH 
 					(
 						FIRSTROW = 2,
