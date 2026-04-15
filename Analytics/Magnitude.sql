@@ -51,3 +51,16 @@ ON S .customer_key = C.customer_key
 	GROUP BY C.customer_key,C.names
 	ORDER BY Totalsales_by_each_customer DESC
 
+--============ Total items sold across by county by each category =====
+
+SELECT 
+	C.country,
+	P.category,
+	SUM(S.quantity) Total_quantity_Sold
+FROM Gold.fact_sales S 
+	LEFT JOIN Gold.dim_customer  C
+ ON S.product_key = C.customer_key
+	LEFT JOIN GOLD.dim_product P
+ON S.product_key = P.product_key
+ GROUP BY C.country, P.category
+ ORDER BY 3
