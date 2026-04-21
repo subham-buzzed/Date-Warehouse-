@@ -53,6 +53,13 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 ---
 
   BI: Analytics & Reporting (Data Analysis)
+  
+-- Reports:
+To analyse the measure and dimensions of the bussiness data and the reports that i have generated are:
+  - *Overall Performance Analysis*
+  - *Change Over Analysis*
+  - *Category Analysis*
+  - *Cummulative Analysis*
 
 -- Objective
 Develop SQL-based analytics to deliver detailed insights into:
